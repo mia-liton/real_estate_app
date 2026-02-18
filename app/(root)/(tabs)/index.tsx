@@ -5,7 +5,7 @@ import { Link } from "expo-router";
 const Index = () => {
   return (
     <View>
-      <Text>Index</Text>
+      <Text className="font-bold text-lg my-10">Welcome to Real Estate</Text>
 
       <Link href="/sign-in">Sign In</Link>
       <Link href="/explore">Explore</Link>
